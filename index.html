@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out</title>
+    <style>
+        body{
+            font-size: x-large;
+            background-color: #C7D2FE;
+        }
+        section{
+            margin:9rem 25rem;
+            padding: 2rem;
+            display: inline-block;
+        }
+        input,button,span{
+            display: block;
+            margin: 1rem;
+            text-align: center;
+        }
+        input{
+            margin-left:3rem;
+            line-height: 2rem;
+        }
+        #birth{
+            margin-left: 4rem;
+        }
+        button{
+            border: 1px solid #6366F1;
+            background-color: #C7D2FE;
+            padding: 0.6rem;
+            border-radius: 2rem;
+            font-size: medium;
+            margin-left: 5rem;
+        }
+        div{
+            margin-left: 2rem;
+        }
+        #clr{
+            padding: 0.5rem;
+            margin-left: 6rem;
+        }
+    </style>
+
+</head>
+<body>
+    <section>
+        <span>Enter your BirthDay!</span>
+        <input type="date" id="birth"/>
+        <span>Enter your lucky number</span>
+        <input type="number" id="luck"/>
+        <button id="btn">Check Now</button>
+        <button id="clr" >Clear</button>
+        <div id="output"></div>
+    </section>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
