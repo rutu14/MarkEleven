@@ -11,43 +11,31 @@
             background-color: #C7D2FE;
         }
         section{
-            margin:9rem 25rem;
-            padding: 2rem;
-            display: inline-block;
+            margin:5rem auto;
+            padding: 3rem;
         }
-        input,button,span{
+        input,button,span,#output,h3{
             display: block;
-            margin: 1rem;
+            margin: 1rem auto;
             text-align: center;
         }
         input{
-            margin-left:3rem;
-            line-height: 2rem;
             border-radius: 0.2rem;
-        }
-        #birth{
-            margin-left: 4rem;
+            padding: 0.4rem;
+            text-align: center;
         }
         button{
             border: 1px solid #6366F1;
-            background-color: #C7D2FE;
-            padding: 0.6rem;
-            border-radius: 2rem;
-            font-size: medium;
-            margin-left: 5rem;
-        }
-        div{
-            margin-left: 2rem;
-        }
-        #clr{
             padding: 0.5rem;
-            margin-left: 6rem;
+            border-radius: 0.7rem;
+            font-size: medium;
         }
     </style>
 
 </head>
 <body>
     <section>
+        <h3>Check If Your Birthday Is Lucky🤞🏻 </h3>
         <span>Enter your BirthDay!</span>
         <input type="date" id="birth"/>
         <span>Enter your lucky number</span>
@@ -56,7 +44,6 @@
         <button id="clr" >Clear</button>
         <div id="output"></div>
     </section>
-    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
